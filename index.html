@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Invision Helpdesk</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <link rel="stylesheet" href="assets/css/site.min.css" />
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="page/dist/img/icon.png">
+	<link rel="icon" href="page/dist/img/icon.png" type="image/x-icon">
+</head>
+
+<body class="layout-row">
+    <div class="flex">
+        <div class="w-xl w-auto-sm mx-auto py-5">
+            <div class="p-4 d-flex flex-column h-100">
+                <a href="#" class="navbar-brand align-self-center">
+                    <img src="page/dist/img/invision.png">
+                </a>
+            </div>
+            <div class="card">
+                <div id="content-body">
+                    <div class="p-3 p-md-5">
+                        <h5>Selamat Datang ,</h5>
+                        <p>
+                            <small class="text-muted">Masuk untuk mengelola akun anda di mandiri helpdesk.</small>
+                        </p>
+                        <form class="" role="form" action="javascript:login();">
+                            <div class="form-group">
+                                <label>Username</label>
+								<input type="text" class="form-control" id="username" placeholder="Username" required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password" required="true">
+                            </div>
+                            <div class="my-3 text-right">
+                                <a href="https://ice.icephone.id:8013/mendawai/createaccount/reset.html" class="text-muted">Lupa Password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-4">
+                               Masuk
+                            </button>
+                            <div class="">
+                                Belum mempunyai akun? <a href="https://ice.icephone.id:8013/mendawai/createaccount/" class="text-center">Daftar Akun</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-muted cek">&copy; Copyright. PT Invision Astrindo . </div>
+        </div>
+    </div>
+    <script src="assets/js/site.min.js"></script>
+	<script>
+		function login(){
+			var d = new Date();
+			d.setTime(d.getTime() + (30*24*60*60*1000));
+			var expires = "expires=" + d.toGMTString();
+			document.cookie = "userid=" + $("#username").val() + ";" + expires + ";path=/";
+			
+			window.parent.location.href = "page/dash_channel.aspx";
+        }
+        
+	</script>
+</body>
+
+</html>
