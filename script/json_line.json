@@ -1,0 +1,107 @@
+{
+  "Result": "True",
+  "Raw": [
+    {
+      "Ticket": "Complaint",
+      "UserCreate": "agent",
+      "Data": [
+        {
+          "JamNya": "08:00",
+          "Jumlah": 1
+        },
+        {
+          "JamNya": "09:00",
+          "Jumlah": 2
+        },
+        {
+          "JamNya": "10:00",
+          "Jumlah": 3
+        },
+        {
+          "JamNya": "11:00",
+          "Jumlah": 1
+        },
+        {
+          "JamNya": "12:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "13:00",
+          "Jumlah": 6
+        },
+        {
+          "JamNya": "14:00",
+          "Jumlah": 5
+        },
+        {
+          "JamNya": "15:00",
+          "Jumlah": 6
+        },
+        {
+          "JamNya": "16:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "17:00",
+          "Jumlah": 3
+        }
+      ]
+    },
+    {
+      "Ticket": "Request",
+      "UserCreate": "agent",
+      "Data": [
+        {
+          "JamNya": "08:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "09:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "10:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "11:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "12:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "13:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "14:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "15:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "16:00",
+          "Jumlah": "0"
+        },
+        {
+          "JamNya": "17:00",
+          "Jumlah": "0"
+        }
+      ]
+    }
+  ],
+  "Data1": "",
+  "Data2": "",
+  "Data3": "",
+  "Data4": "",
+  "Data5": "",
+  "Data6": "",
+  "Data7": "",
+  "Data8": "",
+  "Data9": "",
+  "Data10": ""
+}
